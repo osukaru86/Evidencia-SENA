@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos| A-Selling</title>
+</head>
+
+<body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="description" content="Descubre el mejor sitio en Internet
+  para vender o comprar productos del campo colombiano" />
+  <meta charset="utf-8">
+  <meta name="keywords" content="comprar productos del campo, dónde vender mi producto">
+  <link rel="stylesheet" href="style_contactanos.css">
+  </head>
+
+  <body>
+    <header>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+      <script src="contactanos.js"></script>
+      <br>
+      <nav class="navbar navbar-expand-md bg-body-tertiary barraNavegacion">
+        <div class="container-fluid">
+          <img class="imagenTitulo" src="C:\Users\oscar\OneDrive\Pictures\A Selling Mockups + Code\Logo A Selling.png"
+            height="60px" width="60px" alt="logo de A Selling">
+          <p class="esteTítulo">&nbsp;&nbsp;&nbsp;A-Selling</p>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul>
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" onclick="navigate('Inicio')"><u>Inicio</u></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigate('Tutoriales')"><u>Tutoriales</u></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigate('MiCuenta')"><u>Mi Cuenta</u></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigate('Marketplace')"><u>Marketplace</u></a>
+                </li>
+              </ul>
+              <div class="search">
+                <input type="text" id="searchInput" placeholder="Buscar">
+                <button style="margin-right: 15px" type="button" input type="search" class="btn btn-info"
+                  onclick="search()">Busca</button>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                  class="bi bi-question-circle" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                  <path
+                    d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                </svg>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                  class="bi bi-cart3" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg>
+                <button style="margin-right: 2px" type="button" class="btn btn-warning" onclick="visit()">Mi
+                  Carrito</button>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor"
+                  class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor"
+                  class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg>
+                <button type="button" class="btn btn-warning" onclick="logout()">Salir</button>
+
+              </div>
+      </nav>
+    </header>
+    <br>
+    <section>
+      <nav class="mapaSativa"
+        style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contáctanos</li>
+        </ol>
+      </nav>
+    </section>
+    <br><br><br>
+    <div class="contactanos" style="display:inline-block">
+      <section class="preguntaAyuda">
+        <h2 class="ContactanosYa">Contáctanos</h2>
+        <br>
+        <p>¿Qué necesitas?</p>
+        <br>
+        <p>¡Trabajamos Juntos!</p>
+    </div>
+    </section>
+    <br><br><br>
+    <div class="contactanos" style="display:inline-block">
+      <section>
+        <br>
+        <p class="letraMain">Estamos aquí para ayudarte
+          en lo que necesites.
+          Trabajamos para tí
+          todos los días.</p>
+        <br>
+        <p class="letraMain">¡Déjanos tu mensaje
+          y un asesor te estará
+          llamando a la brevedad!</p>
+    </div>
+    </section>
+    <br><br><br>
+    <section style="display:inline-block">
+      <h4 class="mapaSativa">¿Dónde Estamos?</h4>
+
+      <iframe class="mapaSativa"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1983.5006954741534!2d-72.7089234196798!3d6.1305135493573815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1700980713360!5m2!1ses!2sco"
+        width="450" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <br><br><br>
+    <section>
+      <h4 class="mapaSativa">Déjanos tu Mensaje</h4>
+      <form action="https://formsubmit.co/pulgoso8603@gmail.com" method="POST" id="columnasInput" style="display:inline-block">
+        <div class="input-group" id="userDataInput">
+
+          <label for="name">Tu Nombre y Apellido:</label>
+          <input type="text" name="nombre" id="nombre">
+          <br>
+          <label for="tel">Tu Número de WhatsApp:</label>
+          <input type="tel" name="WhatsApp" id="tel">
+          <br>
+          <label for="email">Tu Email:</label>
+          <input type="email" name="email" id="email">
+          <br>
+          <label for="message">Tu Mensaje:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <br>
+          <div class="text-center">
+            <input type="checkbox" id="cbox" value="first_checkbox" />
+            <label for="cbox2">Sí, Acepto</label>
+            <div class="formText">
+              <a href="#">Políticas de A-Selling</a>
+              <br>
+              <a href="#">Términos y Condiciones de Uso</a>
+              <br><br>
+              <button type="button" class="btn btn-warning" onclick="send()">Enviar</button>
+
+              <input type="hidden" name="_next" value="">
+
+              <a href="mailto:pulgoso8603@gmail.com" id="sendTo"></a>  
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <br><br>
+    <footer>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <img class="imagenTitulo" src="C:\Users\oscar\OneDrive\Pictures\A Selling Mockups + Code\Logo A Selling.png"
+            height="60px" width="60px" alt="logo de A Selling">
+          <p class="esteTítulo">&nbsp;&nbsp;&nbsp;A-Selling</p>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="menuInferior" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="esteSi" style="display:inline-block">
+              <div class="text-center">
+                <h5>Menú</h5><br>
+                <br>
+                <a href="#">Ofertas</a><br>
+                <br>
+                <a href="#">Nuevos</a><br>
+                <br>
+                <a href="#">Más Cerca</a><br>
+                <br>
+                <a href="#">Mis Productos</a>
+                <br>
+              </div>
+            </div>
+            <div class="esteSi" style="display:inline-block">
+              <div class="text-center">
+                <h5>Categorías</h5><br>
+                <br>
+                <a href="#">Frutas</a><br>
+                <br>
+                <a href="#">Verduras-Hortalizas</a><br>
+                <br>
+                <a href="#">Carnes</a><br>
+                <br>
+                <a href="#">Lácteos</a><br>
+                <br>
+                <a href="#">Artesanales-Amasijos</a>
+                <br>
+              </div>
+            </div>
+            <div class="esteSi" style="display:inline-block">
+              <div class="text-center">
+                <h5>Info</h5><br>
+                <br>
+                <a href="#">Tutoriales</a><br>
+                <br>
+                <a href="#">Conócenos</a><br>
+                <br>
+                <a href="#">Atención al Cliente</a><br>
+                <br>
+                <a href="#">¿Dónde Estamos?</a>
+                <br>
+              </div>
+            </div>
+      </nav>
+      <div class="text-center">
+        <div class="social-links">
+          <br>
+          <h6>Síguenos en</h6>
+          <a class="bi bi-facebook nav-item col-6 col-md-auto p-3" href="https://www.facebook.com/" target="_blank"
+            onclick="openSocial('Facebook')"></a>
+          <a class="bi bi-instagram nav-item col-6 col-md-auto p-3" href="https://www.instagram.com/" target="_blank"
+            onclick="openSocial('Instagram')"></a>
+          <a class="bi bi-youtube nav-item col-6 col-md-auto p-3" href="https://www.youtube.com/" target="_blank"
+            onclick="openSocial('YouTube')"></a>
+          <a class="bi bi-linkedin nav-item col-6 col-md-auto p-3" href="https://www.linkedin.com/" target="_blank"
+            onclick="openSocial('LinkedIn')"></a>
+          <a class="bi bi-tiktok nav-item col-6 col-md-auto p-3" href="https://www.tiktok.com/es/" target="_blank"
+            onclick="openSocial('TikTok')"></a>
+          <br>
+          <br>
+          <div role="contentinfo">Hecho con ♡ por Oscar. Derechos reservados ©2023 A-Selling.</div>
+          <br>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
+
+</body>
+
+</html>

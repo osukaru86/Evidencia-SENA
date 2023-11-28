@@ -1,0 +1,97 @@
+body {
+    font-family: Monserrat, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+header {
+    background-color: #EEE8AA;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 3.5px;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.accessibility {
+    padding: 10px;
+}
+
+.video-container {
+    /* Estilo del contenedor de video */
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+.content {
+    width: 70%;
+}
+
+footer {
+    background-color: greenlight;
+    padding: 20px;
+}
+
+.footer-box {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.separate {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px ;
+    margin-left: 30px ;
+}
+
+.primerTitulo {
+    font-size: 34px;
+    font-family: Candara;
+    background-color: #FFF8DC;
+}
+
+.ultimoParrafo {
+    background-color: #EEE8AA;
+}
+
+.ultimaSección {
+    background-color: #FFF8DC;
+}
+
+.últimoTitulo {
+    background-color: #FFF8DC;
+    font-family: Candara;
+    font-size: 26px;
+}

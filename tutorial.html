@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="encuentra la ayuda que necesitas para que puedas vender tus productos, ¡así de fácil!">
+    <title>Tutoriales</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="tutorial.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" onclick="navigate('Inicio')"><u>Inicio</u></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigate('Tutoriales')"><u>Más Guías</u></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigate('Contáctanos')"><u>Contáctanos</u></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigate('AcercaDe')"><u>Conócenos</u></a>
+                </li>
+              </ul>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar">
+                <button style="margin-right: 15px" type="button" class="btn btn-info" onclick="search()">Busca</button>
+                <button style="margin-right: 2px" type="button" class="btn btn-warning" onclick="login()">Entra</button>
+                <button type="button" class="btn btn-warning" onclick="register()">Regístrate</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="accessibility">
+            <p id="currentLocation">Estás aquí: <a href="#" onclick="navigate('Inicio')">Inicio</a> > <span><a href="#">Tutoriales</span></a></p>
+        </section>
+        <section>
+          <div class="text-center">
+            <h1 class="primerTitulo">¿Qué es un marketplace y cómo funciona?</h1>
+            <br>
+          </div>
+          <br>
+            <div class="video-container">
+                <!-- Espacio para el video -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kRnvxqiBohA?si=sBnew6uEUPOykC3i" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <aside>
+            </aside>
+                <h3 class="primerTitulo">Índice</h3>
+                <ol>
+                    <li><a href="#" onclick="scrollToSection('Seccion1')">¿Cómo funciona el Marketplace?</a></li>
+                    <li><a href="#" onclick="scrollToSection('Seccion2')">¿Cómo publicar y vender tus productos?</a></li>
+                    <li><a href="#" onclick="scrollToSection('Seccion3')">¿Cómo retirar el dinero de tu cuenta?</a></li>
+                    <li><a href="#" onclick="scrollToSection('Seccion4')">¿Cómo puedes contactar con tu Comprador?</a></li>
+                </ol>
+                <button class="btn btn-warning" onclick="enroll()">Ver Más Temas</button>
+            </aside>
+            <br>
+            <div class="content">
+                <p>Un <strong>marketplace</strong> es un sitio online donde las personas que desean vender sus productos,
+                pueden crear una cuenta como Vendedores, publicar lo que tienen para vender, y realizar el envío
+              luego de haber preparado el pedido y dejado en la transportadora, quien lo entregará al cliente, en
+              la puerta de su casa.</p>
+                <br>
+              <p>Dicho de otra manera, es un sitio que actúa como intermediario en la venta de tus productos a tus clientes,
+              a cambio de una pequeña comisión; (comisión que nosotros no te cobramos, sino que la cobramos al comprador,
+              para que puedas disfrutar de tu trabajo y ¡ganar bien por ello!).</p>
+            <br>
+            <h2 class="primerTitulo">¿Cómo funciona el Marketplace?</h2>
+            <br>
+            <p>Muy fácil. Debes ingresar a la dirección URL desde tu navegador preferido. La dirección de A Selling es
+              <address>https://www.aselling.com/</address>Cuando entras, lo haces directo a la plataforma de comercio, desde donde ves
+              todos los productos que tenemos listados para los Compradores.</p>
+              <p>Los marketplace son lugares que "operan" las 24 horas del día, todos los días; por lo que no debes preouparte por nada.
+              Los compradores que entran al sitio web, también ven los productos que ellos han comprado con anterioridad, aquellos
+              que han visitado, y aquellos que tienen más cerca.</p>
+              <br>
+              <h4 class="primerTitulo">¿Cómo publicar y vender tus productos?</h4>
+              <br>
+            <p>Debes dirigirte a la parte superior deecha de tu pantalla, para ingresar a tu cuenta, donde verás tu perfil
+            de usuario Vendedor, tu nombre, tu foto, y los demás datos; además de el o los prouctos que vendes el historial de
+            ventas, entre otras funciones útiles, para que puedas ver cuánto has vendido y quiénes te han comprado.</p>
+            <br>
+            <img src="C:\Users\oscar\Downloads\FOTOS MERCADO\Agricultura 4.jpg" height="250px" width="350px" alt="Mercado Campesino">
+            <figcaption><em>Los productos frescos, son los más vendidos.</em></figcaption>
+            <br>
+           <p>Elige la opción para publicar tu producto; editar información de tu(s) productos(s) publicados, como
+             subir una nueva foto, subir un video, modificar el precio que deseas cobrar, las unidades que te quedan
+             disponibles para despachar, entre otros aspectos, y siempre guardar los cambios.</p>
+             <br>
+             <p>Al entrar y crear tu cuenta en A-Seling, tienes a tu disposición una gran cantidad de herramientas
+             que te permiirán subir un video o una foto de cada producto que vendes, rellenar una pequeña información como:</p>
+             <ul>
+               <li>El nombre del producto,</li>
+               <li>La cantidad que vendes (en libras, kilos, arrobas o bultos),</li>
+               <li>Tu ubicación,</li>
+               <li>El precio (en lo que vendes esa cantidad),</li>
+               <li>Y unas etiquetas (que nos sirven para clasificar tu producto y ayudar al comprador a que lo encuentre
+                 más fácil, cuando esté buscando)</li>
+             </ul>
+             <p>Y darle click al botón "Publicar"</p>
+             <br>
+            <h4 class="primerTitulo">¿Cómo retirar el dinero de tu cuenta?</h4>
+            <br>
+            <p>Es muy sencillo. Simplemente, sigue los pasos que verás en el video.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/utIBSY_oGe0?si=IWbVDb4-Z8fjSvO5" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <br>
+            <br>
+            <h4 class="primerTitulo">¿Cómo puedes contactar con tu Comprador?</h4>
+            <br>
+            <p>¿A que no adivinas? Es muy sencilo. Si deseas contactar a tu Comprador para avisarle que has tenido un
+            incoveiente con su pedido, solo debes ponerte en contacto con nosotros, al número de WhatsApp
+            o teléfono de contacto. Nosotros le avisaremos de tu inconveniente, para que él o ella decida si
+            seguirte apoyando,o solicitar un reembolso de su dinero. ¡Estaremos de vuelta contigo, tan pronto como
+            terminemos de hablar con tu Comprador!</p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <h5><strong><em>Entradas Recientes</em></strong></h5>
+        <br>
+        <section class="ultimaSección">
+          <div class="text-center">
+          <h6 class="primerTitulo">La agricultura en Colombia: un mundo por crecer</h6>
+          <br>
+          <p>En un artículo publicado por el Ministerio de Agricultura el pasado martes, se dieron a conocer las cifras
+          de un estudio realizado por la fundación Asocar y CorpoBoyacá, que alude al echo de que hay más de 12.000
+          hectáreas con potencial de producción que han sido abandonadas, o en las que se tiene ganado lechero.</p>
+          <br>
+          <p>Afortunadamente, hay miles de jóvenes rurarles que se están preocupando por retornar al campo y hacerlo otra
+            vez productivo, tal comolo mencionó en rueda de prensa, la actual Ministra de Agricultura, quien también avaló
+            el plan de Agrologística para Colombia en los años que vienen.</p>
+              <br>
+              <img src="C:\Users\oscar\Downloads\FOTOS MERCADO\Agricultura 3.jpg" height="250px" width="350px" alt="Cultivo de fresas">
+              <figcaption><em>A-Selling respalda a los productores colombianos.</em></figcaption>
+              <br>
+              <button type="button" class="btn btn-info">Quiero Leer Más</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <div class="text-center">
+        <div class="social-links">
+            <h5>Síguenos en</h5>
+            <a href="#" onclick="openSocial('Facebook')">Facebook</a>
+            <a href="#" onclick="openSocial('Instagram')">Instagram</a>
+            <a href="#" onclick="openSocial('YouTube')">YouTube</a>
+            <a href="#" onclick="openSocial('LinkedIn')">LinkedIn</a>
+            <a href="#" onclick="openSocial('TikTok')">TikTok</a>
+            <br>
+            <br>
+            <p class="ultimoParrafo">Hecho con ♡ por Oscar. Derechos reservados ©2023 A-Selling.</p>
+        </div>
+        </div>
+    </footer>
+    <script src="<tutorial.js"></script>
+</body>
+</html>

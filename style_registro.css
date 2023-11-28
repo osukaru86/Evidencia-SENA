@@ -1,0 +1,66 @@
+main {
+  color:black;
+  background-color:lightblue;
+  font-family: Montserrat, sans-serif;
+  margin: auto;
+  padding: 20px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  color:#1c3411;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer {
+  color:black;
+  background-color:#f1c901;
+  padding-left:380px;
+  align-content: center;
+}
+
+button {
+  color: black;
+  border-radius: 0.25px
+}
+
+ul {
+  color: black;
+  border-radius: 50px 0 0 0;
+}
+
+.logo {
+  padding-top: 140px;
+  align-content: center;
+}
+
+.Formulario {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.abajo  {
+  font-size: 16px;
+}
